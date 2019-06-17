@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header id="masthead">
+        <div class="container">
+          <a href="index.html" id="logo">Khavin Lindo</a>
+   
+          <nav>
+              <a href="index.html">About</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="contact.html">Contact</a>
+          </nav>
+      </div>
+</header>
+
+<div id="main-container" class="container">
+  <section class="main-section">
+      <h1>Contact</h1>
+          <form id="contact-form">
+            <ul>
+              <li>
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+              </li>
+
+              <li>
+                  <label for="email">Email</label> <!--'label' element for a list item-->
+                  <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required"> <!--'input' element for a form. Different types of imput elements-->
+              </li>
+
+              <li>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required="required"></textarea> <!--'textarea' element for inputing messahe text-->
+              </li>
+            </ul>
+            <input type="submit" name="submit">
+          </form>
+        </section>
+
+    <section class="sidebar">
+     <div class="connect">
+         <h2>Connect with Me</h2>
+         <img src="assets/images/iconfinder_mark-github_298822.png" class="social" alt=Github>
+         <img src="assets/images/iconfinder_square-linkedin_317725.png" class="social" alt="LinkedIn">
+         <img src="assets/images/iconfinder_stackoverflow_287529.png" class="social" alt="Stack Overflow">
+     </div>
+   </section>
+</div>
+    
+
+   <footer>
+       <div class="container">
+           &copy; Copyright 2019 Khavin Lindo
+       </div>
+   </footer>
+
+</body>
+</html>
